@@ -1,5 +1,5 @@
 import{Page} from "@playwright/test";
-import { loginPage } from "./loginpage";
+import {loginPage} from "./loginPage";
 import { dashboardPage } from "./dashboardPage";
 
 export class pageObjectManager
