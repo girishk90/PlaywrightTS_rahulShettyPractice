@@ -1,4 +1,6 @@
 {
     "minAmount":"0",
-    "maxAmount":"50000"
+    "maxAmount":"50000",
+    "productName":"ZARA COAT 3",
+    "NoProdMsge":"No Products Found"
 }

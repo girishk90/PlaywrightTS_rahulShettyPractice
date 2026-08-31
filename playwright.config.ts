@@ -12,6 +12,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     headless: !!process.env.CI,
     browserName:'chromium',
+    screenshot :'only-on-failure'
    
   },
   projects:[
