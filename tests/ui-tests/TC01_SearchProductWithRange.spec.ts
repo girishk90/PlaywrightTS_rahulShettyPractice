@@ -1,13 +1,11 @@
 import { test, expect } from "@playwright/test";
 import { pageObjectManager } from "../../page-object/pageObjectManager";
-//import loginData from "../test-data/loginData.json";
 import dashboardData from "../../test-data/dashboardData.json"
 
 
 test("Search Product with range", async ({ page }) => {
 
     const poManager = new pageObjectManager(page);
-    //const loginPage = poManager.getloginPage();
     const dashboardPage = poManager.getDashboardPage();
 
     await page.goto("/client/#/auth/login");
