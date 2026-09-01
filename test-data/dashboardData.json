@@ -2,5 +2,8 @@
     "minAmount":"0",
     "maxAmount":"50000",
     "productName":"ZARA COAT 3",
-    "NoProdMsge":"No Products Found"
+    "NoProdMsge":"No Products Found",
+    "selectedProd":"iphone 13 pro",
+    "prodAddedMsge":"Product Added To Cart",
+    "prodToAddCart": "ADIDAS ORIGINAL"
 }
